@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A8EEEA6296728ED00AB924E /* SillyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EEEA5296728ED00AB924E /* SillyApp.swift */; };
-		1A8EEEA8296728ED00AB924E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EEEA7296728ED00AB924E /* ContentView.swift */; };
+		1A8EEEA8296728ED00AB924E /*  SillyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EEEA7296728ED00AB924E /*  SillyView.swift */; };
 		1A8EEEAA296728EE00AB924E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8EEEA9296728EE00AB924E /* Assets.xcassets */; };
 		1A8EEEAD296728EE00AB924E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8EEEAC296728EE00AB924E /* Preview Assets.xcassets */; };
 		1A8EEEB7296728EE00AB924E /* SillyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EEEB6296728EE00AB924E /* SillyTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		1A8EEEA2296728ED00AB924E /* Silly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8EEEA5296728ED00AB924E /* SillyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillyApp.swift; sourceTree = "<group>"; };
-		1A8EEEA7296728ED00AB924E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A8EEEA7296728ED00AB924E /*  SillyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SillyView.swift"; sourceTree = "<group>"; };
 		1A8EEEA9296728EE00AB924E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A8EEEAC296728EE00AB924E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A8EEEB2296728EE00AB924E /* SillyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SillyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,8 +94,7 @@
 		1A8EEEA4296728ED00AB924E /* Silly */ = {
 			isa = PBXGroup;
 			children = (
-				1A8EEEA5296728ED00AB924E /* SillyApp.swift */,
-				1A8EEEA7296728ED00AB924E /* ContentView.swift */,
+				1A8EEECF296729A300AB924E /* Resources */,
 				1A8EEEA9296728EE00AB924E /* Assets.xcassets */,
 				1A8EEEAB296728EE00AB924E /* Preview Content */,
 			);
@@ -125,6 +124,15 @@
 				1A8EEEC2296728EE00AB924E /* SillyUITestsLaunchTests.swift */,
 			);
 			path = SillyUITests;
+			sourceTree = "<group>";
+		};
+		1A8EEECF296729A300AB924E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A8EEEA7296728ED00AB924E /*  SillyView.swift */,
+				1A8EEEA5296728ED00AB924E /* SillyApp.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8EEEA8296728ED00AB924E /* ContentView.swift in Sources */,
+				1A8EEEA8296728ED00AB924E /*  SillyView.swift in Sources */,
 				1A8EEEA6296728ED00AB924E /* SillyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
